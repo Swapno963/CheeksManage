@@ -1,6 +1,8 @@
 # CheeksManage 🐣  
 CheeksManage is a comprehensive platform designed for hen farmers, dealers, and maintainers to manage resources like food, medicine, and chicks, as well as track sales and inventory. This system features distinct user roles, each with its own specialized dashboard.
 
+---
+
 ## User Roles & Responsibilities
 
 ### 1. Dealer
@@ -50,13 +52,37 @@ The **Maintainer** oversees storage and inventory levels for food, medicine, and
 
 ## Additional Features
 
-- **Role-Based Access Control**:
-  Each user type (Dealer, Farmer, Maintainer) has a specific dashboard with unique features and limited access to other sections of the platform. Admins can oversee the system and manage users.
+### 1. **Feed Forecasting Based on Chick Age**:
+   - Automatically forecast feed requirements based on the age of the chicks and display the projected feed needed for upcoming days/weeks.
+   - Provide alerts when feed levels are running low or when the forecasted need exceeds current stock.
 
-- **Communication & Order Processing**:
-  - Farmers can place resource orders directly from dealers through the platform.
-  - Dealers can manage, track, and process these orders based on stock availability.
-  - Maintainers can monitor inventory and facilitate restocking processes.
+### 2. **Chick Growth Monitoring**:
+   - Track the weight, health, and growth of each chick, allowing farmers to optimize feeding schedules based on actual growth rates.
+   - Include graphs and reports that show the progress of the flock over time, highlighting any discrepancies in growth.
+
+### 3. **Dynamic Resource Allocation**:
+   - Based on the forecasted feed needs, allocate feed dynamically across different farmers to ensure a balanced and efficient distribution.
+   - Notify farmers when their allocated feed is available for pickup or delivery.
+
+### 4. **Sales and Profit Prediction**:
+   - Use the chick growth and feed consumption data to predict potential sales and profits based on historical patterns.
+   - Enable farmers to adjust feed allocation or manage flock size to maximize profits.
+
+### 5. **Integrated Farmer-Dealer Communication**:
+   - Allow farmers to send direct requests to dealers for feed or medicine restocking, and let dealers respond with real-time availability.
+   - Automate reminders for regular resource deliveries based on historical data and forecasts.
+
+### 6. **Chick Mortality Tracking and Alerts**:
+   - Provide farmers with the ability to record chick mortality and offer insights into potential causes (e.g., feed issues, health problems).
+   - Send alerts to both the farmer and dealer in case of significant mortality rates, allowing them to take preventive actions.
+
+### 7. **Automated Purchase Orders**:
+   - Automatically generate purchase orders for feed, medicine, or other resources based on forecasted needs, ensuring farmers never run out of essential supplies.
+   - Include a system for dealers to review, accept, or adjust these purchase orders.
+
+### 8. **Performance Benchmarking**:
+   - Compare feed efficiency and chick growth rates with other farmers on the platform to create benchmarks and identify potential areas of improvement.
+   - Offer tips and insights based on top-performing farmers.
 
 ---
 
